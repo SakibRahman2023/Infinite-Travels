@@ -4,8 +4,8 @@
 }
 
 section {
-    margin: 50px 130px 0px 130px;
-    max-width: 1440px;
+    margin: 50px 130px 50px 130px;
+    max-width: 1170px;
 }
 
 /*header section style*/
@@ -132,4 +132,41 @@ nav li {
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* Section 2 style ...our.. */
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.img-2 {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+}
+
+.div-text {
+    max-width: 580px;
+}
+
+.our {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.text-1{
+    color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 24px;
+}
+.text-2{
+    color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 50px;
 }
