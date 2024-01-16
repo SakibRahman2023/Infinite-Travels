@@ -222,6 +222,26 @@ nav li {
     margin-bottom: 100px;
 }
 
+.mal-pic, .indo, .sri, .north, .kash, .ban, .bandor {
+    position: relative;
+    height: auto;
+}
+
+.mal-pic img , indo img ,.sri img, .north img, .kash img, .ban img,.bandor img{
+    /* width: 100%;  */
+    display: block;
+}
+.maldive, .indo-n,.sri-n, .america, .mir,.desh,.bon{
+    color: #FFF;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+
 /* Section 4 ....why choose us.... */
 
 .section-4 {
