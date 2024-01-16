@@ -6,7 +6,6 @@
 section {
     margin: 50px 135px 50px 135px;
     max-width: 1170px;
-    border: 2px solid red;
 }
 
 /*header section style*/
@@ -39,14 +38,14 @@ nav li {
 }
 
 .nav-title {
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 800;
-    padding-left: 16px;
+    padding-left: 1rem;
 }
 
 .nav-img {
-    width: 48px;
-    height: 56px;
+    width: 3rem;
+    height: 3.5rem;
 
 }
 
@@ -61,14 +60,14 @@ nav li {
 #home {
     color: #FF5400;
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .Ptbc {
     color: #424247;
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -190,7 +189,7 @@ nav li {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    width: 650px;
+     max-width: 650px;
     margin-top: 0px;
 }
 
@@ -412,6 +411,10 @@ indo img,
 
 /* footer section */
 
+.hr{
+    max-width: 870px;
+}
+
 footer {
     max-width: 1440px;
     background: rgba(19, 19, 24, 0.05);
@@ -490,8 +493,6 @@ footer {
 
 .saint img {
     border-radius: 16px;
-    /* max-width: 500px;
-    height: 320px; */
 }
 
 .unique {
@@ -519,3 +520,182 @@ border-radius: 16px;
         font-size: 20px;
         font-weight: 800;
 }
+
+
+
+
+
+
+/* mobile device */
+
+@media screen and (max-width:600px) {
+   section{
+    margin:20px;
+   }
+    
+    nav,ul{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+ .nav-title {
+     font-size: 2rem;
+     font-weight: 800;
+     padding-left: 0rem;
+ }
+
+ .nav-img {
+     width: 2.4rem;
+     height: 3rem;
+
+ }
+ .banner{
+    flex-direction: column;
+    height: auto;
+    border-radius: 10px;
+    
+ }
+ .banner-title{
+    font-size: 1.4rem;
+    padding-top: 16px;
+ }
+ .banner-text{
+    max-width: 400px;
+ }
+
+ .search{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+ }
+.section-2 ,.myplan ,.section-3,.section-4,.price-s4,.newsletter{
+    flex-direction: column;
+    gap: 30px;
+}
+.img-2 img,.saint img {
+max-width: 100%;
+    display: inline;
+    height: auto;
+    vertical-align: middle;
+}
+.saint img {
+    width: 100%;
+    border-radius: 10px;
+}
+.choose-text{
+    max-width: 500px;
+}
+.pic-1,.pic-2,.pic-3{
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 20px;
+    width:auto;
+}
+.text-3{
+    padding-left: 10px;
+}
+.hr{
+    margin: 0px 20px 0px 20px;
+}
+.news-2 img {
+   max-width: 100%;
+    display: inline;
+    height: auto;
+    vertical-align: middle;
+}
+.mal-pic>img ,.indo>img,.sri>img,.north>img,.kash>img,.ban>img,.bandor>img,.img-2>img{
+    width:510px;
+        display: inline;
+        height: 300px;
+        
+}
+
+
+
+}
+
+@media screen and (max-width:550px){
+    .mal-pic>img,
+        .indo>img,
+        .sri>img,
+        .north>img,
+        .kash>img,
+        .ban>img,
+        .bandor>img,
+        .img-2>img {
+            width: 410px;
+            display: inline;
+            height: 270px;
+    
+        }
+
+}
+@media screen and (max-width:500px) {
+
+    .mal-pic>img,
+    .indo>img,
+    .sri>img,
+    .north>img,
+    .kash>img,
+    .ban>img,
+    .bandor>img,
+    .img-2>img {
+        width: 390px;
+        display: inline;
+        height: 260px;
+
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .mal-pic>img,
+    .indo>img,
+    .sri>img,
+    .north>img,
+    .kash>img,
+    .ban>img,
+    .bandor>img,
+    .img-2>img {
+        width: 350px;
+        display: inline;
+        height: 250px;
+
+    }
+
+}
+@media screen and (max-width:400px) {
+
+    .mal-pic>img,
+    .indo>img,
+    .sri>img,
+    .north>img,
+    .kash>img,
+    .ban>img,
+    .bandor>img,
+    .img-2>img {
+        width: 300px;
+        display: inline;
+        height: 200px;
+
+    }
+
+}
+@media screen and (max-width:350px) {
+
+    .mal-pic>img,
+    .indo>img,
+    .sri>img,
+    .north>img,
+    .kash>img,
+    .ban>img,
+    .bandor>img,
+    .img-2>img {
+        width: 250px;
+        display: inline;
+        height: 150px;
+
+    }
+
+}
+
