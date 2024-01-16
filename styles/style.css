@@ -4,7 +4,7 @@
 }
 
 section {
-    margin: 50px 130px 50px 130px;
+    margin: 50px 135px 50px 135px;
     max-width: 1170px;
 }
 
@@ -175,41 +175,45 @@ nav li {
 
 /* Section 3 ...."choose " */
 
-.choose{
+.choose {
     color: #131318;
-        /* text-align: center; */
-        font-size: 40px;
-        font-weight: 800;
-        margin-bottom: 0px;
-        padding-bottom: 24px;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    padding-bottom: 24px;
 }
-.choose-text{
+
+.choose-text {
     color: rgba(19, 19, 24, 0.70);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        width: 650px;
-        margin-top: 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 650px;
+    margin-top: 0px;
 }
-.section-3{
+
+.section-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.pic-1{
+.pic-1 {
     display: grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
     margin-top: 50px;
 }
-.pic-2{
+
+.pic-2 {
     display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 25px;
-        padding-top: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    padding-top: 25px;
 }
+
 .pic-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -218,8 +222,41 @@ nav li {
     margin-bottom: 100px;
 }
 
+/* Section 4 ....why choose us.... */
 
+.section-4 {
+    display: flex;
+    gap: 25px;
+}
 
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 50px 32px 32px;
+
+}
+
+.maps {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 50px 32px 32px;
+}
+
+.price {
+    max-width: 490px;
+    padding: 32px 50px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+   align-items: center;
+}
+.price-s4{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
 
 
 
@@ -262,13 +299,13 @@ footer {
 
 .text-3 {
     color: #5A5A5D;
-    text-align: center; 
+    text-align: center;
     font-size: 16px;
     font-weight: 400;
     max-width: 800px;
     padding-left: 290px;
-    padding-bottom: 30px; 
-   
+    padding-bottom: 30px;
+
 
 }
 
