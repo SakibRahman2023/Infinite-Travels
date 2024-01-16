@@ -254,7 +254,7 @@ nav li {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 32px 50px 32px 32px;
-
+    max-width: 490px;
 }
 
 .maps {
@@ -262,6 +262,7 @@ nav li {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 32px 50px 32px 32px;
+    max-width: 490px;
 }
 
 .price {
