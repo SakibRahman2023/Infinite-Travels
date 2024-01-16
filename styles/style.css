@@ -158,32 +158,35 @@ nav li {
     font-weight: 800;
     margin-bottom: 24px;
 }
-.text-1{
+
+.text-1 {
     color: rgba(19, 19, 24, 0.70);
-        font-size: 16px;
-        font-weight: 400;
-        margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
-.text-2{
+
+.text-2 {
     color: #5A5A5D;
-        font-size: 16px;
-        font-weight: 400;
-        margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 
 /* footer section */
 
-footer{
+footer {
     max-width: 1440px;
     background: rgba(19, 19, 24, 0.05);
 }
 
-.footer-section{
+.footer-section {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
 }
+
 .f-title {
     font-size: 30px;
     font-weight: 800;
@@ -195,35 +198,40 @@ footer{
     height: 46px;
 
 }
- 
-.social{
-    margin-left: 650px;
-    padding-bottom: 50px;
-    } 
-    
-.text-3{
-    color: #5A5A5D;
-    align-items: center;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        max-width:800px;
-        padding-left: 335px;
-        padding-bottom: 30px;
 
-} 
-.copy{
-    color: #131318;
-        font-family: Inter;
-        font-size: 16px;
-        font-weight: 300;
-        text-align: center;
-        padding-bottom: 110px;
-        padding-top: 50px;
-    
+.social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
-.hr{
-    width: 872px;
-        height: 1px;
-        background: rgba(19, 19, 24, 0.10);
+
+.text-3 {
+    color: #5A5A5D;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 800px;
+    padding-left: 290px;
+    padding-bottom: 30px; 
+   
+
+}
+
+.copy {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 110px;
+    padding-top: 50px;
+
+}
+
+.hr {
+    max-width: 800px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
 }
