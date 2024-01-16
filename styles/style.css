@@ -9,7 +9,9 @@ section {
 }
 
 /*header section style*/
-
+.nav-bar{
+    display:none;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -140,6 +142,8 @@ nav li {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .img-2 {
@@ -189,7 +193,7 @@ nav li {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-     max-width: 650px;
+    max-width: 650px;
     margin-top: 0px;
 }
 
@@ -240,7 +244,7 @@ indo img,
 .kash img,
 .ban img,
 .bandor img {
-    
+
     display: block;
 }
 
@@ -411,7 +415,7 @@ indo img,
 
 /* footer section */
 
-.hr{
+.hr {
     max-width: 870px;
 }
 
@@ -477,11 +481,17 @@ footer {
 }
 
 /* My section */
+.upcoming {
+    padding-top: 0px;
+    margin-top: 0px;
+}
 
 .myplan {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .enjoy {
@@ -500,25 +510,29 @@ footer {
 }
 
 .detial {
-border-radius: 16px;
+    border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 10px 50px 50px;
 }
-.d-plan{
+
+.d-plan {
     color: #131318;
-        font-size: 30px;
-        font-weight: 800;
+    font-size: 30px;
+    font-weight: 800;
 }
-.d-text, .start{
+
+.d-text,
+.start {
     color: #131318;
-        font-size: 20px;
-        font-weight: 800;
+    font-size: 20px;
+    font-weight: 800;
 }
-.january{
+
+.january {
     color: orangered;
-        font-size: 20px;
-        font-weight: 800;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 
@@ -529,106 +543,158 @@ border-radius: 16px;
 /* mobile device */
 
 @media screen and (max-width:600px) {
-   section{
-    margin:20px;
-   }
-    
-    nav,ul{
-        flex-direction: column;
-        align-items: flex-start;
-        
+
+    section {
+        margin: 0px 20px;
+        padding: 0px;
     }
- .nav-title {
-     font-size: 2rem;
-     font-weight: 800;
-     padding-left: 0rem;
- }
+    .nav-bar{
+        display: block;
+    }
+    #home,.Ptbc {
+            display: none;
+    }
 
- .nav-img {
-     width: 2.4rem;
-     height: 3rem;
+    .nav-title {
+        font-size: 2rem;
+        font-weight: 800;
+        padding-left: 0rem;
+    }
 
- }
- .banner{
-    flex-direction: column;
-    height: auto;
-    border-radius: 10px;
-    
- }
- .banner-title{
-    font-size: 1.4rem;
-    padding-top: 16px;
- }
- .banner-text{
-    max-width: 400px;
- }
+    .nav-img {
+        width: 2.4rem;
+        height: 3rem;
 
- .search{
-    display: flex;
-    flex-direction: column;
-    gap:10px;
- }
-.section-2 ,.myplan ,.section-3,.section-4,.price-s4,.newsletter{
-    flex-direction: column;
-    gap: 30px;
-}
-.img-2 img,.saint img {
-max-width: 100%;
-    display: inline;
-    height: auto;
-    vertical-align: middle;
-}
-.saint img {
-    width: 100%;
-    border-radius: 10px;
-}
-.choose-text{
-    max-width: 500px;
-}
-.pic-1,.pic-2,.pic-3{
-    grid-template-columns: repeat(1,1fr);
-    row-gap: 20px;
-    width:auto;
-}
-.text-3{
-    padding-left: 10px;
-}
-.hr{
-    margin: 0px 20px 0px 20px;
-}
-.news-2 img {
-   max-width: 100%;
-    display: inline;
-    height: auto;
-    vertical-align: middle;
-}
-.mal-pic>img ,.indo>img,.sri>img,.north>img,.kash>img,.ban>img,.bandor>img,.img-2>img{
-    width:510px;
+    }
+
+    .banner {
+        flex-direction: column;
+        height: auto;
+        border-radius: 10px;
+
+    }
+
+    .banner-title {
+        font-size: 1.4rem;
+        padding-top: 16px;
+    }
+
+    .banner-text {
+        max-width: 400px;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-2,
+    .myplan,
+    .section-3,
+    .section-4,
+    .price-s4,
+    .newsletter {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img-2 img,
+    .saint img {
+        max-width: 100%;
+        display: inline;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .saint img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .choose-text {
+        max-width: 500px;
+    }
+
+    .pic-1,
+    .pic-2,
+    .pic-3 {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        width: auto;
+    }
+
+    .text-3 {
+        padding-left: 10px;
+    }
+
+    .hr {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .news-2 img {
+        max-width: 100%;
+        display: inline;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .mal-pic>img,
+    .indo>img,
+    .sri>img,
+    .north>img,
+    .kash>img,
+    .ban>img,
+    .bandor>img {
+        width: 510px;
         display: inline;
         height: 300px;
-        
+
+    }
+
+    .img-2>img {
+        width: 510px;
+        display: inline;
+        height: 510px;
+    }
+
+    .section-2 {
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .myplan {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+
 }
 
+@media screen and (max-width:550px) {
 
-
-}
-
-@media screen and (max-width:550px){
     .mal-pic>img,
-        .indo>img,
-        .sri>img,
-        .north>img,
-        .kash>img,
-        .ban>img,
-        .bandor>img,
-        .img-2>img {
-            width: 410px;
-            display: inline;
-            height: 270px;
-    
-        }
+    .indo>img,
+    .sri>img,
+    .north>img,
+    .kash>img,
+    .ban>img,
+    .bandor>img,
+    .img-2>img {
+        width: 410px;
+        display: inline;
+        height: 270px;
+
+    }
+
+    .img-2>img {
+        width: 410px;
+        display: inline;
+        height: 420px;
+    }
 
 }
+
 @media screen and (max-width:500px) {
 
     .mal-pic>img,
@@ -643,6 +709,12 @@ max-width: 100%;
         display: inline;
         height: 260px;
 
+    }
+
+    .img-2>img {
+        width: 390px;
+        display: inline;
+        height: 400px;
     }
 
 }
@@ -663,7 +735,14 @@ max-width: 100%;
 
     }
 
+    .img-2>img {
+        width: 3500px;
+        display: inline;
+        height: 3600px;
+    }
+
 }
+
 @media screen and (max-width:400px) {
 
     .mal-pic>img,
@@ -680,7 +759,14 @@ max-width: 100%;
 
     }
 
+    .img-2>img {
+        width: 300px;
+        display: inline;
+        height: 310px;
+    }
+
 }
+
 @media screen and (max-width:350px) {
 
     .mal-pic>img,
@@ -697,5 +783,10 @@ max-width: 100%;
 
     }
 
-}
+    .img-2>img {
+        width: 250px;
+        display: inline;
+        height: 260px;
+    }
 
+}
