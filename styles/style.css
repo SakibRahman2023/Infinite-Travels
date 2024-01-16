@@ -6,6 +6,7 @@
 section {
     margin: 50px 135px 50px 135px;
     max-width: 1170px;
+    border: 2px solid red;
 }
 
 /*header section style*/
@@ -305,7 +306,6 @@ indo img,
 .newsletter {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
 }
 
 .news-1 {
@@ -477,7 +477,8 @@ footer {
 
 .myplan {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .enjoy {
@@ -489,6 +490,8 @@ footer {
 
 .saint img {
     border-radius: 16px;
+    /* max-width: 500px;
+    height: 320px; */
 }
 
 .unique {
@@ -503,16 +506,16 @@ border-radius: 16px;
 }
 .d-plan{
     color: #131318;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 800;
 }
 .d-text, .start{
     color: #131318;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 800;
 }
 .january{
     color: orangered;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 800;
 }
