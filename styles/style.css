@@ -707,6 +707,9 @@ footer {
         display: inline;
         height: 420px;
     }
+        .choose {
+            font-size: 2.2rem;
+        }
 
 }
 
@@ -729,6 +732,9 @@ footer {
         width: 390px;
         height: 400px;
     }
+        .choose {
+            font-size: 2rem;
+        }
 
 }
 
@@ -752,6 +758,13 @@ footer {
         display: inline;
         height: 360px;
     }
+    .nav-title{
+        font-size:1.2rem;
+    }
+    .choose{
+        font-size: 1.75rem;
+    }
+
 
 }
 
