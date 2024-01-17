@@ -707,7 +707,7 @@ footer {
         display: inline;
         height: 420px;
     }
-        .choose {
+        .choose,.our {
             font-size: 2.2rem;
         }
 
@@ -732,7 +732,7 @@ footer {
         width: 390px;
         height: 400px;
     }
-        .choose {
+        .choose,.our {
             font-size: 2rem;
         }
 
@@ -761,7 +761,7 @@ footer {
     .nav-title{
         font-size:1.2rem;
     }
-    .choose{
+    .choose,.our{
         font-size: 1.75rem;
     }
 
