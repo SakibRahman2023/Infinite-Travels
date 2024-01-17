@@ -9,9 +9,10 @@ section {
 }
 
 /*header section style*/
-.nav-bar{
-    display:none;
+.nav-bar {
+    display: none;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -537,7 +538,8 @@ footer {
     font-size: 20px;
     font-weight: 800;
 }
-.news-hr{
+
+.news-hr {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -549,19 +551,23 @@ footer {
 /* mobile device */
 
 @media screen and (max-width:600px) {
-    
-    *{
+
+    * {
         max-width: 600px;
     }
+
     section {
         margin: 0px 20px;
         padding: 0px;
     }
-    .nav-bar{
+
+    .nav-bar {
         display: block;
     }
-    #home,.Ptbc {
-            display: none;
+
+    #home,
+    .Ptbc {
+        display: none;
     }
 
     .nav-title {
@@ -608,11 +614,12 @@ footer {
         gap: 30px;
     }
 
-    .img-2 img{
+    .img-2 img {
         max-width: 500px;
-        max-height:510px;
+        max-height: 510px;
         width: 100%;
     }
+
     .saint img {
         max-width: 100%;
         display: inline;
@@ -634,7 +641,7 @@ footer {
     .pic-3 {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 20px;
-        width:100%;
+        width: 100%;
     }
 
     .text-3 {
@@ -651,7 +658,8 @@ footer {
         height: auto;
         vertical-align: middle;
     }
-    .news-hr{
+
+    .news-hr {
         padding: 0px 10px;
     }
 
@@ -707,9 +715,11 @@ footer {
         display: inline;
         height: 420px;
     }
-        .choose,.our {
-            font-size: 2.2rem;
-        }
+
+    .choose,
+    .our {
+        font-size: 2.2rem;
+    }
 
 }
 
@@ -721,7 +731,7 @@ footer {
     .north>img,
     .kash>img,
     .ban>img,
-    .bandor>img{
+    .bandor>img {
         width: 390px;
         display: inline;
         height: 260px;
@@ -732,9 +742,13 @@ footer {
         width: 390px;
         height: 400px;
     }
-        .choose,.our {
-            font-size: 2rem;
-        }
+
+    .choose,
+    .our {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 20px;
+    }
 
 }
 
@@ -758,11 +772,14 @@ footer {
         display: inline;
         height: 360px;
     }
-    .nav-title{
-        font-size:1.2rem;
+
+    .nav-title {
+        font-size: 1.2rem;
     }
-    .choose,.our{
-        font-size: 1.75rem;
+
+    .choose,
+    .our {
+        font-size: 1.5rem;
     }
 
 
@@ -776,11 +793,17 @@ footer {
     .north>img,
     .kash>img,
     .ban>img,
-    .bandor>img{
+    .bandor>img {
         width: 300px;
         display: inline;
         height: 200px;
 
+    }
+
+    .our {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 20px;
     }
 
     .img-2>img {
